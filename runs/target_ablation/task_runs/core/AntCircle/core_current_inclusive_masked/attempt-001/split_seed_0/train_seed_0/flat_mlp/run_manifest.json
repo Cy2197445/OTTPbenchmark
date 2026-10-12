@@ -1,0 +1,124 @@
+{
+  "artifacts": {
+    "metrics.json": {
+      "bytes": 98837,
+      "sha256": "c7ddeb2457b2df9a43daeafd09001db603448310a6590272d2c4efc307702df7"
+    },
+    "precursor_model.pt": {
+      "bytes": 828173,
+      "sha256": "76f91495b9178f35a75a84df9dc3a22f094fd7c0eb3cff355d31f88ae42d809a"
+    }
+  },
+  "attempt_id": "attempt-001",
+  "dataset": {
+    "path": "data/precursors/AntCircle.pt",
+    "sha256": "d56c7ff3b1caeb2a0dd60d583af7180ae4796d4fc4ba51f0561271ae308196da",
+    "task": "AntCircle"
+  },
+  "experiment_id": "r26_stage4-core_unified38_antcircle_flat-mlp_current-inclusive_ss0_ts0_9862a6d8cf52",
+  "freeze_id": "OTTP-R26-G1-v1",
+  "indices": {
+    "capped": {
+      "test": {
+        "count": 497372,
+        "sha256": "823fc87259d1b1c88d06f2a0bb0a5fb455bf3173e94c0d1b30f8fef15d779b99"
+      },
+      "train": {
+        "count": 100000,
+        "sha256": "f2e9447019867d6ee0885de82ce633acc2fb98ccc9f35714827d31f97464738a"
+      },
+      "val": {
+        "count": 50000,
+        "sha256": "aee88455dac6f727c1661f56f077c555244f237ced3e668b03bc68058f48cc85"
+      }
+    },
+    "files": {
+      "capped_train_validation_indices.npz": {
+        "bytes": 243107,
+        "sha256": "7dd6ea612e72b81f7c4dc550b56d2b978d9ecaf29be88f57cf12c77d754e9f0a"
+      },
+      "episode_group_assignment.csv.gz": {
+        "bytes": 28803,
+        "sha256": "d0f81b93517c8e5a6bb3fb60dd452f7eeed30a70f111410ba1fdea6d2cb1e248"
+      },
+      "normalization_stats.npz": {
+        "bytes": 751,
+        "sha256": "7a89d2e84ea719217c6142e0b60fbe7df01dc697e0151b72fae525cce4f2bdc4"
+      },
+      "thresholds.json": {
+        "bytes": 189,
+        "sha256": "4fba28789b732a775ddd146e7758fefa133121f7a9bdbe67939527cbb8f0d1dc"
+      },
+      "uncapped_split_indices.npz": {
+        "bytes": 3808868,
+        "sha256": "c35ded7c10422f228ad9e5f36d95405dfd3b85b8123dbf158184820ce4c58e03"
+      }
+    },
+    "root": "runs/target_ablation/task_runs/core/AntCircle/core_current_inclusive_masked/attempt-001/split_seed_0/train_seed_0/reproducibility",
+    "uncapped": {
+      "test": {
+        "count": 497372,
+        "sha256": "823fc87259d1b1c88d06f2a0bb0a5fb455bf3173e94c0d1b30f8fef15d779b99"
+      },
+      "train": {
+        "count": 1511420,
+        "sha256": "1a33c7b20259d8d603b3b2dcccdeda01b33e83c0ae8529337e0134580c82efc0"
+      },
+      "val": {
+        "count": 502028,
+        "sha256": "929209fa32048911e15b80e7faf282c856abc372aca233edef1af31752d021aa"
+      }
+    }
+  },
+  "protocol": {
+    "extra": {
+      "ablation_group": null,
+      "ablation_mode": null,
+      "max_test_samples": null,
+      "max_train_samples": 100000,
+      "max_val_samples": 50000,
+      "window_size": 32
+    },
+    "feature_profile": "history_without_current_cost",
+    "freeze_id": "OTTP-R26-G1-v1",
+    "gamma": 0.99,
+    "legacy_compatible": false,
+    "legacy_seed": 0,
+    "loader_seed": 0,
+    "model_name": "flat-mlp",
+    "outcome_quantile_pair": [
+      0.75,
+      0.9
+    ],
+    "protocol_hash": "9862a6d8cf526332cfe5b65e17720a1d5c4afc7a7a801b883a6c6c858ca5e223",
+    "quantile_pair": [
+      0.75,
+      0.9
+    ],
+    "sampling_seed": 0,
+    "split_family": "episode_group",
+    "split_seed": 0,
+    "target_variant": "current_inclusive",
+    "train_seed": 0
+  },
+  "resources": {
+    "free_bytes_before": 19885436928,
+    "minimum_free_space_gib": 10.0
+  },
+  "schema_version": "ottp_revision_run_manifest_v1",
+  "source_snapshot_hash": "795ab205086aae8ef24b060e1ecf74a6877bcc03d21e59fda2693b63b4ede8ae",
+  "training": {
+    "batch_size": 256,
+    "device": "cuda",
+    "dropout": 0.0,
+    "epochs": 12,
+    "hidden_dim": 128,
+    "learning_rate": 0.001,
+    "loader_rng_mode": "explicit_loader_seed",
+    "num_layers": 1,
+    "trainable_parameter_count": 200067,
+    "weight_decay": 1e-05,
+    "window_size": 32
+  },
+  "work_package": "stage4-core"
+}

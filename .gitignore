@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+
+# Local datasets and caches
+data/raw/
+data/precursors/
+*.pt
+*.pth
+*.ckpt
+
+# Temporary outputs
+tmp/
+tmp_external/
+work/

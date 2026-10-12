@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OTTP run manifest v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "freeze_id",
+    "experiment_id",
+    "attempt_id",
+    "work_package",
+    "source_snapshot_hash",
+    "dataset",
+    "protocol",
+    "indices",
+    "artifacts"
+  ],
+  "properties": {
+    "schema_version": {"const": "ottp_revision_run_manifest_v1"},
+    "freeze_id": {"const": "OTTP-R26-G1-v1"},
+    "experiment_id": {"type": "string", "minLength": 1},
+    "attempt_id": {"type": "string", "minLength": 1},
+    "work_package": {"type": "string", "minLength": 1},
+    "source_snapshot_hash": {"type": "string", "minLength": 12},
+    "dataset": {
+      "type": "object",
+      "required": ["task", "path", "sha256"]
+    },
+    "protocol": {
+      "type": "object",
+      "required": [
+        "target_variant",
+        "gamma",
+        "quantile_pair",
+        "outcome_quantile_pair",
+        "split_family",
+        "split_seed",
+        "sampling_seed",
+        "train_seed",
+        "loader_seed",
+        "feature_profile",
+        "model_name",
+        "protocol_hash"
+      ]
+    },
+    "indices": {
+      "type": "object",
+      "required": ["uncapped", "capped", "files"]
+    },
+    "artifacts": {"type": "object"}
+  },
+  "additionalProperties": true
+}

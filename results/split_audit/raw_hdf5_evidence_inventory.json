@@ -1,0 +1,3808 @@
+{
+  "audited_on": "2026-09-23",
+  "official_documentation": {
+    "evidence_type": "source_reference_not_local_file_hash",
+    "scope": "Public DSRL README enumerates transition fields, not a verified per-episode collection-run mapping.",
+    "url": "https://github.com/liuzuxin/DSRL"
+  },
+  "registry_sha256": "7e13c8895795ca65dad485e087bcae6b05576b96059ed3f6d583ea43a035c889",
+  "schema_version": "ottp_g6_raw_hdf5_inventory_v1",
+  "tasks": [
+    {
+      "bytes": 642045386,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2510820,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2510820
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2510820,
+            34
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2510820,
+            34
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2510820
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2510820
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2510820
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyAntCircle-v0-200-5728.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2510820,
+      "root_attribute_names": [],
+      "sha256": "cfcf7aeb0d8084d190070269ccf0855ff32fc8c6796dc345fdbaa5d732d7d74a",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyAntCircle-v0-200-5728.hdf5",
+      "task": "AntCircle"
+    },
+    {
+      "bytes": 90939299,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            363010,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            363010
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            363010,
+            33
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            363010,
+            33
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            363010
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            363010
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            363010
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyAntRun-v0-150-1816.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 363010,
+      "root_attribute_names": [],
+      "sha256": "2a6f8702f9fc05e22d7c0d66b8da0bf237799ccf090ebea20eb0c3cb7bac44ed",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyAntRun-v0-150-1816.hdf5",
+      "task": "AntRun"
+    },
+    {
+      "bytes": 934651680,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2092264,
+            8
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2092264
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2092264,
+            27
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2092264,
+            27
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2092264
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2092264
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2092264
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyAntVelocityGymnasium-v1-250-2249.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2092264,
+      "root_attribute_names": [],
+      "sha256": "72c828880df84315926864566cff70c5898c9c97f2dab2fafc0a5bc66a14c2dd",
+      "source_group": "velocity_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyAntVelocityGymnasium-v1-250-2249.hdf5",
+      "task": "AntVelocity"
+    },
+    {
+      "bytes": 12430624,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            177200,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            177200
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            177200,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            177200,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            177200
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            177200
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            177200
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyBallCircle-v0-80-886.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 177200,
+      "root_attribute_names": [],
+      "sha256": "8fbb40ceb133d2b40a234290cda9004e56ed81956cabdb2e042789da856e97c8",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyBallCircle-v0-80-886.hdf5",
+      "task": "BallCircle"
+    },
+    {
+      "bytes": 5894833,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            94000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            94000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            94000,
+            7
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            94000,
+            7
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            94000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            94000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            94000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyBallRun-v0-80-940.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 94000,
+      "root_attribute_names": [],
+      "sha256": "2d52ae096d0ba47e6a6dc19ce8563dafecd3988e974a658acba278f2238d4bc6",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyBallRun-v0-80-940.hdf5",
+      "task": "BallRun"
+    },
+    {
+      "bytes": 2010086196,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2656000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2656000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2656000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2656000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2656000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2656000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2656000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarButton1Gymnasium-v0-250-2656.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2656000,
+      "root_attribute_names": [],
+      "sha256": "5c82b5747de2290c94a736e55b275bb64f2588eff925745c56843a4622604a84",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarButton1Gymnasium-v0-250-2656.hdf5",
+      "task": "CarButton1"
+    },
+    {
+      "bytes": 3043494604,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            3755000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            3755000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            3755000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            3755000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            3755000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            3755000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            3755000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarButton2Gymnasium-v0-300-3755.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 3755000,
+      "root_attribute_names": [],
+      "sha256": "36b2de3297e89b48fbdde9b1779f06d01226877b16ffe490f4f2bdefee6a2d4a",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarButton2Gymnasium-v0-300-3755.hdf5",
+      "task": "CarButton2"
+    },
+    {
+      "bytes": 30300562,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            435000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            435000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            435000,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            435000,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            435000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            435000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            435000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarCircle-v0-100-1450.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 435000,
+      "root_attribute_names": [],
+      "sha256": "e9bb6a77ba61d12c47ae705fb4a089e0a01fb2b17deaf2f5faa27bfca609ed5a",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarCircle-v0-100-1450.hdf5",
+      "task": "CarCircle"
+    },
+    {
+      "bytes": 134804557,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            635500,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            635500
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            635500,
+            40
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            635500,
+            40
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            635500
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            635500
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            635500
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarCircle1Gymnasium-v0-250-1271.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 635500,
+      "root_attribute_names": [],
+      "sha256": "9d95172d595952a82e6eba74ace49ac85cfd1f1cccf279597bef85d2eea6a419",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarCircle1Gymnasium-v0-250-1271.hdf5",
+      "task": "CarCircle1"
+    },
+    {
+      "bytes": 99498510,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            470000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            470000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            470000,
+            40
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            470000,
+            40
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            470000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            470000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            470000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarCircle2Gymnasium-v0-400-940.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 470000,
+      "root_attribute_names": [],
+      "sha256": "675890789505b256f07080535f63ac5cf0347b8e0fa7741e03dd108b5e88ab68",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarCircle2Gymnasium-v0-400-940.hdf5",
+      "task": "CarCircle2"
+    },
+    {
+      "bytes": 1031959147,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            1671000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            1671000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            1671000,
+            72
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            1671000,
+            72
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            1671000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            1671000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            1671000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarGoal1Gymnasium-v0-120-1671.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 1671000,
+      "root_attribute_names": [],
+      "sha256": "a6a26e9d5817592fbeaa64ea57cf9440275c76b18248b2ee51908d901541ef93",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarGoal1Gymnasium-v0-120-1671.hdf5",
+      "task": "CarGoal1"
+    },
+    {
+      "bytes": 2972460754,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            4105000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            4105000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            4105000,
+            72
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            4105000,
+            72
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            4105000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            4105000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            4105000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarGoal2Gymnasium-v0-200-4105.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 4105000,
+      "root_attribute_names": [],
+      "sha256": "d1fed45128d2bbc6d20d1756a437bdc0d757833be252b8e8e01e23ef42eda4af",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarGoal2Gymnasium-v0-200-4105.hdf5",
+      "task": "CarGoal2"
+    },
+    {
+      "bytes": 1717798589,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2871000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2871000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2871000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2871000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2871000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2871000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2871000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarPush1Gymnasium-v0-200-2871.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2871000,
+      "root_attribute_names": [],
+      "sha256": "28b2751d2bdc9ae7edc5d1585239ce8940272b426cdb23ccbd4bee61988b5c0b",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarPush1Gymnasium-v0-200-2871.hdf5",
+      "task": "CarPush1"
+    },
+    {
+      "bytes": 3044926024,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            4407000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            4407000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            4407000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            4407000,
+            88
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            4407000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            4407000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            4407000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarPush2Gymnasium-v0-250-4407.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 4407000,
+      "root_attribute_names": [],
+      "sha256": "9eef6705c819217d8de49914d6c971b68fd072fb89cfd9cbd2b7f3258d00f46f",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarPush2Gymnasium-v0-250-4407.hdf5",
+      "task": "CarPush2"
+    },
+    {
+      "bytes": 7678612,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            130200,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            130200
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            130200,
+            7
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            130200,
+            7
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            130200
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            130200
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            130200
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyCarRun-v0-40-651.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 130200,
+      "root_attribute_names": [],
+      "sha256": "6d76baea4de50dedc72433ee962787306ac5bc02cd93d85b4f6cd345f8c78dcb",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyCarRun-v0-40-651.hdf5",
+      "task": "CarRun"
+    },
+    {
+      "bytes": 81178110,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            576243,
+            4
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            576243
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            576243,
+            18
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            576243,
+            18
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            576243
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            576243
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            576243
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyDroneCircle-v0-100-1923.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 576243,
+      "root_attribute_names": [],
+      "sha256": "5a313ad720d4626e19b519ed1bd96f327b40a2256fb90a49d9b8e6d782f240a3",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyDroneCircle-v0-100-1923.hdf5",
+      "task": "DroneCircle"
+    },
+    {
+      "bytes": 53863692,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            395099,
+            4
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            395099
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            395099,
+            17
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            395099,
+            17
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            395099
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            395099
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            395099
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyDroneRun-v0-140-1990.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 395099,
+      "root_attribute_names": [],
+      "sha256": "9db590a4e99ac56cf1d07e39ecabeb92a5b7abbb0d2fb36129989ee7c542e155",
+      "source_group": "bullet_safety_gym_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyDroneRun-v0-140-1990.hdf5",
+      "task": "DroneRun"
+    },
+    {
+      "bytes": 366621024,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2495000,
+            6
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2495000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2495000,
+            17
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2495000,
+            17
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2495000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2495000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2495000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyHalfCheetahVelocityGymnasium-v1-250-2495.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2495000,
+      "root_attribute_names": [],
+      "sha256": "cdafacd97449bc7397aedbb829c11582512cb998d0077bc6e341c7951f7ab98f",
+      "source_group": "velocity_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyHalfCheetahVelocityGymnasium-v1-250-2495.hdf5",
+      "task": "HalfCheetahVelocity"
+    },
+    {
+      "bytes": 124086405,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            1322478,
+            3
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            1322478
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            1322478,
+            11
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            1322478,
+            11
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            1322478
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            1322478
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            1322478
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyHopperVelocityGymnasium-v1-250-2240.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 1322478,
+      "root_attribute_names": [],
+      "sha256": "cfa2d6a1335c4368e61a93a8118ca4e742db5e3907023d3245f2b866e8e8ffb6",
+      "source_group": "velocity_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyHopperVelocityGymnasium-v1-250-2240.hdf5",
+      "task": "HopperVelocity"
+    },
+    {
+      "bytes": 1123568815,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2268000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2268000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2268000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2268000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2268000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2268000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2268000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointButton1Gymnasium-v0-200-2268.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2268000,
+      "root_attribute_names": [],
+      "sha256": "d93b7e992fa155fc3b8d38b43438714d32ae14795798ea035d43849b41450240",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointButton1Gymnasium-v0-200-2268.hdf5",
+      "task": "PointButton1"
+    },
+    {
+      "bytes": 1831979959,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            3288000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            3288000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            3288000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            3288000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            3288000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            3288000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            3288000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointButton2Gymnasium-v0-250-3288.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 3288000,
+      "root_attribute_names": [],
+      "sha256": "1d97c757e28eb5fb891ed274abf6326201db2f89524c5e591bdc49811b04c0c9",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointButton2Gymnasium-v0-250-3288.hdf5",
+      "task": "PointButton2"
+    },
+    {
+      "bytes": 44670103,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            549000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            549000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            549000,
+            28
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            549000,
+            28
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            549000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            549000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            549000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointCircle1Gymnasium-v0-200-1098.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 549000,
+      "root_attribute_names": [],
+      "sha256": "88ae6d28e1111b42e457b71ca5158e00800f61f67dc68546cdc27488a32b43b9",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointCircle1Gymnasium-v0-200-1098.hdf5",
+      "task": "PointCircle1"
+    },
+    {
+      "bytes": 36781762,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            447500,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            447500
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            447500,
+            28
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            447500,
+            28
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            447500
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            447500
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            447500
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointCircle2Gymnasium-v0-300-895.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 447500,
+      "root_attribute_names": [],
+      "sha256": "a7549c4122d7f3b8faa461b940ac461311d7ea6aea787c9af67acc261d2e44b8",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointCircle2Gymnasium-v0-300-895.hdf5",
+      "task": "PointCircle2"
+    },
+    {
+      "bytes": 697566946,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2022000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2022000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2022000,
+            60
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2022000,
+            60
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2022000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2022000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2022000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointGoal1Gymnasium-v0-100-2022.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2022000,
+      "root_attribute_names": [],
+      "sha256": "ec6f9d7c48b9e789c484a5aa15b060f4212e05f479f96548bb155f385aa1ee66",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointGoal1Gymnasium-v0-100-2022.hdf5",
+      "task": "PointGoal1"
+    },
+    {
+      "bytes": 1557220092,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            3442000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            3442000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            3442000,
+            60
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            3442000,
+            60
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            3442000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            3442000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            3442000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointGoal2Gymnasium-v0-200-3442.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 3442000,
+      "root_attribute_names": [],
+      "sha256": "129e93f3a1d264430ad7e8e5d187b7bccd5aca711663a36f9e71e42209b1bc42",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointGoal2Gymnasium-v0-200-3442.hdf5",
+      "task": "PointGoal2"
+    },
+    {
+      "bytes": 798259138,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2379000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2379000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2379000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2379000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2379000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2379000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2379000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointPush1Gymnasium-v0-150-2379.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2379000,
+      "root_attribute_names": [],
+      "sha256": "e430e19fc68df509750a0d0ef0da043a158850d70fbc8d69346080ce14f166dd",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointPush1Gymnasium-v0-150-2379.hdf5",
+      "task": "PointPush1"
+    },
+    {
+      "bytes": 1408293925,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            3242000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            3242000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            3242000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            3242000,
+            76
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            3242000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            3242000
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            3242000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyPointPush2Gymnasium-v0-200-3242.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 3242000,
+      "root_attribute_names": [],
+      "sha256": "ec45c58d64c997d9a0109b6d04f898a712e21dd63c8f4c6ef94f799bf4fff5b7",
+      "source_group": "safety_gymnasium_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyPointPush2Gymnasium-v0-200-3242.hdf5",
+      "task": "PointPush2"
+    },
+    {
+      "bytes": 114185489,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            1686000,
+            2
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            1686000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            1686000,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            1686000,
+            8
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            1686000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            1686000
+          ]
+        },
+        {
+          "attribute_names": [],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            1686000
+          ]
+        }
+      ],
+      "path": "data/raw/SafetySwimmerVelocityGymnasium-v1-200-1686.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 1686000,
+      "root_attribute_names": [],
+      "sha256": "0a22951fb233414b627d6ca42351b1633129ab21a7be13143ee2a16542abf4ee",
+      "source_group": "velocity_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetySwimmerVelocityGymnasium-v1-200-1686.hdf5",
+      "task": "SwimmerVelocity"
+    },
+    {
+      "bytes": 581681087,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            2121658,
+            6
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            2121658
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            2121658,
+            17
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            2121658,
+            17
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            2121658
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            2121658
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            2121658
+          ]
+        }
+      ],
+      "path": "data/raw/SafetyWalker2dVelocityGymnasium-v1-300-2729.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 2121658,
+      "root_attribute_names": [],
+      "sha256": "95ace20fe8948f256221c0629018289b1e68fdec9785008515efc915142b7086",
+      "source_group": "velocity_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafetyWalker2dVelocityGymnasium-v1-300-2729.hdf5",
+      "task": "Walker2dVelocity"
+    },
+    {
+      "bytes": 160703635,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            839033,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            839033
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            839033
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            839033,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            839033,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            839033
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            839033
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            839033
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            839033
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            839033
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            839033
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-easydense-v0-85-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 839033,
+      "root_attribute_names": [],
+      "sha256": "beafd23075b8afdd84699bf5b70650472980d8a171c7967b1ad9c89d7416720a",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-easydense-v0-85-1000.hdf5",
+      "task": "easydense"
+    },
+    {
+      "bytes": 155761950,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            831915,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            831915
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            831915
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            831915,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            831915,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            831915
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            831915
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            831915
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            831915
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            831915
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            831915
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-easymean-v0-85-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 831915,
+      "root_attribute_names": [],
+      "sha256": "539c932d840a962b9a9d0abcb782cf32455f327e8a5ba7a8e29cd238fedd9d63",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-easymean-v0-85-1000.hdf5",
+      "task": "easymean"
+    },
+    {
+      "bytes": 143267245,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            817681,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            817681
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            817681
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            817681,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            817681,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            817681
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            817681
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            817681
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            817681
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            817681
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            817681
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-easysparse-v0-85-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 817681,
+      "root_attribute_names": [],
+      "sha256": "092745b8f1a9d907d978c5cc577490122e948ddd73ff0af3b16ded3017766d92",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-easysparse-v0-85-1000.hdf5",
+      "task": "easysparse"
+    },
+    {
+      "bytes": 156081674,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            734504,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            734504
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            734504
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            734504,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            734504,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            734504
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            734504
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            734504
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            734504
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            734504
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            734504
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-harddense-v0-85-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 734504,
+      "root_attribute_names": [],
+      "sha256": "7446d877d422345b7c737d43f1774ee67c4fbc99cd71b8a4a9818d6b287144a8",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-harddense-v0-85-1000.hdf5",
+      "task": "harddense"
+    },
+    {
+      "bytes": 139193418,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            764336,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            764336
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            764336
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            764336,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            764336,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            764336
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            764336
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            764336
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            764336
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            764336
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            764336
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-hardmean-v0-85-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 764336,
+      "root_attribute_names": [],
+      "sha256": "b44ab11da144944d5fbf14a7bdf9b0cf187c0429a0c07dab9220d20687b24388",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-hardmean-v0-85-1000.hdf5",
+      "task": "hardmean"
+    },
+    {
+      "bytes": 128103040,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            769077,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            769077
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            769077
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            769077,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            769077,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            769077
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            769077
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            769077
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            769077
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            769077
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            769077
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-hardsparse-v0-85-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 769077,
+      "root_attribute_names": [],
+      "sha256": "98cfa4cf08ff205d2ddbb39e8bffc3530a12d191fc675888bad190ba597631bd",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-hardsparse-v0-85-1000.hdf5",
+      "task": "hardsparse"
+    },
+    {
+      "bytes": 159043816,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            643172,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            643172
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            643172
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            643172,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            643172,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            643172
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            643172
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            643172
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            643172
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            643172
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            643172
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-mediumdense-v0-50-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 643172,
+      "root_attribute_names": [],
+      "sha256": "f43dcde78cfda2fd6e4c55cb61d886e9435e5d4698214d302707cbaf1bf5ca02",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-mediumdense-v0-50-1000.hdf5",
+      "task": "mediumdense"
+    },
+    {
+      "bytes": 145142167,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            667475,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            667475
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            667475
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            667475,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            667475,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            667475
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            667475
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            667475
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            667475
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            667475
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            667475
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-mediummean-v0-50-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 667475,
+      "root_attribute_names": [],
+      "sha256": "0bdfeb4df995239aa9cce01e2c65b513dacb819dc63efc8b5e8c13a0f4ddf001",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-mediummean-v0-50-1000.hdf5",
+      "task": "mediummean"
+    },
+    {
+      "bytes": 124103386,
+      "mapping_status": "NO_CANDIDATE_FIELD",
+      "objects": [
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/actions",
+          "shape": [
+            664479,
+            2
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/costs",
+          "shape": [
+            664479
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "int64",
+          "kind": "dataset",
+          "path": "/crash_costs",
+          "shape": [
+            664479
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/next_observations",
+          "shape": [
+            664479,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float32",
+          "kind": "dataset",
+          "path": "/observations",
+          "shape": [
+            664479,
+            259
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/out_of_road_costs",
+          "shape": [
+            664479
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/proximity_costs",
+          "shape": [
+            664479
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/rewards",
+          "shape": [
+            664479
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/terminals",
+          "shape": [
+            664479
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "bool",
+          "kind": "dataset",
+          "path": "/timeouts",
+          "shape": [
+            664479
+          ]
+        },
+        {
+          "attribute_names": [
+            "__data_type__"
+          ],
+          "dtype": "float64",
+          "kind": "dataset",
+          "path": "/velocity_costs",
+          "shape": [
+            664479
+          ]
+        }
+      ],
+      "path": "data/raw/SafeMetaDrive-mediumsparse-v0-50-1000.hdf5",
+      "provenance_candidates": [],
+      "raw_transitions": 664479,
+      "root_attribute_names": [],
+      "sha256": "2e324837ec9a7397a4252b7b80e4c9be46e0174602c8ed382d5a1c071728c0ee",
+      "source_group": "metadrive_like",
+      "source_homepage": "https://huggingface.co/datasets/YYY-45/DSRL",
+      "source_url": "https://huggingface.co/datasets/YYY-45/DSRL/resolve/main/SafeMetaDrive-mediumsparse-v0-50-1000.hdf5",
+      "task": "mediumsparse"
+    }
+  ]
+}

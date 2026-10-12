@@ -1,0 +1,137 @@
+{
+  "artifacts": {
+    "metrics.json": {
+      "bytes": 53100,
+      "sha256": "b8615e0fa8b12b59ffd63200723e77da20a1d87dbece452ff88182eff7355c8f"
+    },
+    "precursor_model.pt": {
+      "bytes": 429201,
+      "sha256": "891bc776d4c5e101c80c532fa27acea8137fd9b9dcc606b607e284d2149dd4d0"
+    }
+  },
+  "attempt_id": "attempt-001",
+  "dataset": {
+    "path": "data/precursors/CarButton1.pt",
+    "sha256": "fac966a89cb97e37ed8bffa1f0881586a7d9a87de743e27a8c88139e08a70bf9",
+    "task": "CarButton1"
+  },
+  "experiment_id": "cc1__stage4_seed_bridge__canonical_full__CarButton1__ss0__gru",
+  "freeze_id": "OTTP-R26-G1-v1",
+  "indices": {
+    "capped": {
+      "test": {
+        "count": 532000,
+        "sha256": "8329b38fa65b25c9c8b6d028c46a760438657eb4f98765171684122106efd1d8"
+      },
+      "train": {
+        "count": 100000,
+        "sha256": "0c9295f016e141e7db4316ae85a1b9c098ddf93f277683c39bf42821f1c3eac5"
+      },
+      "val": {
+        "count": 50000,
+        "sha256": "535c11d16a523cb18c610ca52da3e264a02b75877484c094b36cef11619a91ee"
+      }
+    },
+    "files": {
+      "capped_train_validation_indices.npz": {
+        "bytes": 241982,
+        "sha256": "2ba60c0bb8e369bf0f032fe8a8a536576aad932b5c05c0f19f0154854fd11191"
+      },
+      "episode_group_assignment.csv.gz": {
+        "bytes": 13818,
+        "sha256": "b96cdb73b39b2507a39343ac0bdc6fda84450c6f58dbabd3563c30a985d00621"
+      },
+      "normalization_stats.npz": {
+        "bytes": 1140,
+        "sha256": "6ed16c8288fec85374f977dd2cd2ffc3c83f2171c7ba04f4cab1b2a57623f1f5"
+      },
+      "thresholds.json": {
+        "bytes": 188,
+        "sha256": "355b75f9415101725b86ea3e2a7e3e4e4561bd6e6c25c5111098d532b3fc3ac5"
+      },
+      "uncapped_split_indices.npz": {
+        "bytes": 4025076,
+        "sha256": "bb93356a96a6464a57247adc306a5af994f34270bab84fc5e65560c460000c8a"
+      }
+    },
+    "root": "reproducibility",
+    "uncapped": {
+      "test": {
+        "count": 532000,
+        "sha256": "8329b38fa65b25c9c8b6d028c46a760438657eb4f98765171684122106efd1d8"
+      },
+      "train": {
+        "count": 1593000,
+        "sha256": "c6d7484feeadd410f772d95a62aa6209ed83989b732cea389530f75903f84c17"
+      },
+      "val": {
+        "count": 531000,
+        "sha256": "5d6ed6cebb9eb59a9c1b957ad99b411dd1973e1949f3979745787e3c149122c3"
+      }
+    }
+  },
+  "protocol": {
+    "extra": {
+      "ablation_group": null,
+      "ablation_mode": null,
+      "gradient_accumulation_steps": 1,
+      "max_test_samples": null,
+      "max_train_samples": 100000,
+      "max_val_samples": 50000,
+      "transformer_d_model": null,
+      "transformer_ffn_multiplier": 4,
+      "transformer_max_length": 32,
+      "transformer_num_heads": 4,
+      "transformer_num_layers": 2,
+      "window_size": 32
+    },
+    "feature_profile": "full",
+    "freeze_id": "OTTP-R26-G1-v1",
+    "gamma": 0.99,
+    "legacy_compatible": false,
+    "legacy_seed": 0,
+    "loader_seed": 0,
+    "model_name": "gru",
+    "outcome_quantile_pair": [
+      0.75,
+      0.9
+    ],
+    "protocol_hash": "48b71736004544f927918985beed1720f0687ca21eb614b2322680d1cc9f8645",
+    "quantile_pair": [
+      0.75,
+      0.9
+    ],
+    "sampling_seed": 0,
+    "split_family": "episode_group",
+    "split_seed": 0,
+    "target_variant": "current_inclusive",
+    "train_seed": 0
+  },
+  "resources": {
+    "free_bytes_before": 14772416512,
+    "minimum_free_space_gib": 10.0
+  },
+  "schema_version": "ottp_revision_run_manifest_v1",
+  "source_snapshot_hash": "66bc937938c54c93d6bddb17c6398c316cc51baf199d565c41d23c850a179e53",
+  "training": {
+    "batch_size": 256,
+    "device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 3060 Ti",
+    "dropout": 0.0,
+    "effective_batch_size": 256,
+    "epochs": 12,
+    "fit_wall_seconds": 112.3791607000021,
+    "gradient_accumulation_steps": 1,
+    "hidden_dim": 128,
+    "learning_rate": 0.001,
+    "loader_rng_mode": "explicit_loader_seed",
+    "num_layers": 1,
+    "peak_cuda_allocated_bytes": 158031360,
+    "peak_cuda_reserved_bytes": 241172480,
+    "trainable_parameter_count": 102403,
+    "transformer_parameter_match": null,
+    "weight_decay": 1e-05,
+    "window_size": 32
+  },
+  "work_package": "stage4_seed_bridge"
+}

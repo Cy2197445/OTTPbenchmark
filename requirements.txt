@@ -1,0 +1,7 @@
+torch==2.11.0
+numpy==2.2.6
+h5py==3.16.0
+PyYAML==6.0.2
+matplotlib==3.10.8
+tensorboard==2.20.0
+requests==2.33.1

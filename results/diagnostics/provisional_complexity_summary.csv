@@ -1,0 +1,6 @@
+model_name,task_count,parameter_count_min,parameter_count_median,parameter_count_max,approximate_macs_min,approximate_macs_median,approximate_macs_max,dominant_complexity_formula,status
+gru,38,71299,93955.0,168067,1724800,2449792.0,4821376,W*3*(D*H + H*H) + H*H + H*C,provisional_existing_models_only_supersede_at_G5_G10
+temporal_cnn,38,21507,44163.0,118275,151936,876928.0,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,provisional_existing_models_only_supersede_at_G5_G10
+flat_mlp,38,62787,308227.0,1111107,61824,303488.0,1094016,W*D*H + (L-1)*H*H + H*C,provisional_existing_models_only_supersede_at_G5_G10
+linear,38,1059,6723.0,25251,1056,6720.0,25248,W*D*C,provisional_existing_models_only_supersede_at_G5_G10
+prevalence,38,0,0.0,0,0,0.0,0,O(C) constant probability broadcast; 0 trainable parameters,provisional_existing_models_only_supersede_at_G5_G10

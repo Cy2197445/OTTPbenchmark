@@ -1,0 +1,191 @@
+task_name,model_name,feature_dim,window_size,trainable_parameter_count,approximate_macs_per_sample,dominant_complexity_formula,state_shape_signature,status
+AntCircle,flat_mlp,44,32,200067,196992,W*D*H + (L-1)*H*H + H*C,06bba4f9003fd351fcbb5710e91c4158030af351245fc0c37ff16e4cd72ea063,provisional_existing_models_only_supersede_at_G5_G10
+AntCircle,gru,44,32,83971,2130304,W*3*(D*H + H*H) + H*H + H*C,ce024e19e1b712e5eae6c1d5bd196d545fc11f799a0a38cb4edfbda60334e70a,provisional_existing_models_only_supersede_at_G5_G10
+AntCircle,linear,44,32,4227,4224,W*D*C,eb38f52ec5dfd6d030d08b29c7303dc8cfdf30c1c6caa30bd83b9bd4598a12af,provisional_existing_models_only_supersede_at_G5_G10
+AntCircle,prevalence,44,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+AntCircle,temporal_cnn,44,32,34179,557440,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,7d75f9d48f96ea2a8495e55aa5faba2e4c4f3eda6286d76738f8fd41610ae89b,provisional_existing_models_only_supersede_at_G5_G10
+AntRun,flat_mlp,43,32,195907,192896,W*D*H + (L-1)*H*H + H*C,9213e82095aae08de3a96f05393bc5c145a68a8316689304e47be21e20ecb309,provisional_existing_models_only_supersede_at_G5_G10
+AntRun,gru,43,32,83587,2118016,W*3*(D*H + H*H) + H*H + H*C,99238a2d0639b3d0a5c907011dd18323c18899d4f139edcc5b855f1b7806f9e6,provisional_existing_models_only_supersede_at_G5_G10
+AntRun,linear,43,32,4131,4128,W*D*C,e34f2ed75ba58235be077c114b63f525a4500b768ac0c4158deaea056b32a4d2,provisional_existing_models_only_supersede_at_G5_G10
+AntRun,prevalence,43,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+AntRun,temporal_cnn,43,32,33795,545152,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,4ad1e48b590df9cc0ed1aed8bc7ff9d036040cbb263c64ffa59a549f656d4f4e,provisional_existing_models_only_supersede_at_G5_G10
+AntVelocity,flat_mlp,37,32,170947,168320,W*D*H + (L-1)*H*H + H*C,2a45f265e29bb6d32698dc2d8855da3e07133275faa2d30136a515217a462c56,provisional_existing_models_only_supersede_at_G5_G10
+AntVelocity,gru,37,32,81283,2044288,W*3*(D*H + H*H) + H*H + H*C,22e9d26e97ac9a88207e1e0044df753a95a0af535c00d264cf3e499b0c6474d2,provisional_existing_models_only_supersede_at_G5_G10
+AntVelocity,linear,37,32,3555,3552,W*D*C,6bbe7abe6c16e01e0fb8d389b85445dfe19aadafcabfdf8f4c65640bf0de14ce,provisional_existing_models_only_supersede_at_G5_G10
+AntVelocity,prevalence,37,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+AntVelocity,temporal_cnn,37,32,31491,471424,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,0c9e4c855adec5764da210f3f339a435ca61695317c39b115f6ef502b798f7b1,provisional_existing_models_only_supersede_at_G5_G10
+BallCircle,flat_mlp,12,32,66947,65920,W*D*H + (L-1)*H*H + H*C,e0b4720661f96910103473df46c8b8d5f6fef3e7b97b7a4275b6cbc2de25ecfd,provisional_existing_models_only_supersede_at_G5_G10
+BallCircle,gru,12,32,71683,1737088,W*3*(D*H + H*H) + H*H + H*C,0176825fec5875f116911b0aa9a699550519d36266e9d8957baadf3f78a94dbc,provisional_existing_models_only_supersede_at_G5_G10
+BallCircle,linear,12,32,1155,1152,W*D*C,0486e6a201b4cee5d48ce142019f33f752cc2b2746924032ac3fa2b14ff8ac76,provisional_existing_models_only_supersede_at_G5_G10
+BallCircle,prevalence,12,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+BallCircle,temporal_cnn,12,32,21891,164224,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,e087e860897dcefa140a7613e1ddda2ee191ff2df7f673ecd682aecd0e72bc17,provisional_existing_models_only_supersede_at_G5_G10
+BallRun,flat_mlp,11,32,62787,61824,W*D*H + (L-1)*H*H + H*C,21c291a65b662bbeeddbe69fb1d39829818cb61afd8d87b521202aef721c9b35,provisional_existing_models_only_supersede_at_G5_G10
+BallRun,gru,11,32,71299,1724800,W*3*(D*H + H*H) + H*H + H*C,d9e0a6fb0963abc1d9f170b658fe42dfef904aec20d8fd49b9d59fce4bafdcd7,provisional_existing_models_only_supersede_at_G5_G10
+BallRun,linear,11,32,1059,1056,W*D*C,4a475f7c2591021813a33b2212be27931bf218ff0ab16c2053bfbab79de84f62,provisional_existing_models_only_supersede_at_G5_G10
+BallRun,prevalence,11,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+BallRun,temporal_cnn,11,32,21507,151936,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,1753d703ded637a746293e14fa6482ebbdb6934e26e1edbb2c2cb0d55f559c89,provisional_existing_models_only_supersede_at_G5_G10
+CarButton1,flat_mlp,92,32,399747,393600,W*D*H + (L-1)*H*H + H*C,4ee190253aa6ae73b0e468418573026a4d351116523a26f7a39266bc766df9ea,provisional_existing_models_only_supersede_at_G5_G10
+CarButton1,gru,92,32,102403,2720128,W*3*(D*H + H*H) + H*H + H*C,c5eef7d63e2ab3febab4cfc8e90053c6c81f9d9ae04cbb6e18352a860e368176,provisional_existing_models_only_supersede_at_G5_G10
+CarButton1,linear,92,32,8835,8832,W*D*C,9647137d7180132380a2b8fad8146d274334985a2f602b03ba3ea510d35523d1,provisional_existing_models_only_supersede_at_G5_G10
+CarButton1,prevalence,92,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarButton1,temporal_cnn,92,32,52611,1147264,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,aa0568de6d0518801bcb36db9eae504ccb939a182c9bdc6eaf2a78843afccc66,provisional_existing_models_only_supersede_at_G5_G10
+CarButton2,flat_mlp,92,32,399747,393600,W*D*H + (L-1)*H*H + H*C,4ee190253aa6ae73b0e468418573026a4d351116523a26f7a39266bc766df9ea,provisional_existing_models_only_supersede_at_G5_G10
+CarButton2,gru,92,32,102403,2720128,W*3*(D*H + H*H) + H*H + H*C,c5eef7d63e2ab3febab4cfc8e90053c6c81f9d9ae04cbb6e18352a860e368176,provisional_existing_models_only_supersede_at_G5_G10
+CarButton2,linear,92,32,8835,8832,W*D*C,9647137d7180132380a2b8fad8146d274334985a2f602b03ba3ea510d35523d1,provisional_existing_models_only_supersede_at_G5_G10
+CarButton2,prevalence,92,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarButton2,temporal_cnn,92,32,52611,1147264,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,aa0568de6d0518801bcb36db9eae504ccb939a182c9bdc6eaf2a78843afccc66,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle,flat_mlp,12,32,66947,65920,W*D*H + (L-1)*H*H + H*C,e0b4720661f96910103473df46c8b8d5f6fef3e7b97b7a4275b6cbc2de25ecfd,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle,gru,12,32,71683,1737088,W*3*(D*H + H*H) + H*H + H*C,0176825fec5875f116911b0aa9a699550519d36266e9d8957baadf3f78a94dbc,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle,linear,12,32,1155,1152,W*D*C,0486e6a201b4cee5d48ce142019f33f752cc2b2746924032ac3fa2b14ff8ac76,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle,prevalence,12,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle,temporal_cnn,12,32,21891,164224,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,e087e860897dcefa140a7613e1ddda2ee191ff2df7f673ecd682aecd0e72bc17,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle1,flat_mlp,44,32,200067,196992,W*D*H + (L-1)*H*H + H*C,06bba4f9003fd351fcbb5710e91c4158030af351245fc0c37ff16e4cd72ea063,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle1,gru,44,32,83971,2130304,W*3*(D*H + H*H) + H*H + H*C,ce024e19e1b712e5eae6c1d5bd196d545fc11f799a0a38cb4edfbda60334e70a,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle1,linear,44,32,4227,4224,W*D*C,eb38f52ec5dfd6d030d08b29c7303dc8cfdf30c1c6caa30bd83b9bd4598a12af,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle1,prevalence,44,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle1,temporal_cnn,44,32,34179,557440,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,7d75f9d48f96ea2a8495e55aa5faba2e4c4f3eda6286d76738f8fd41610ae89b,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle2,flat_mlp,44,32,200067,196992,W*D*H + (L-1)*H*H + H*C,06bba4f9003fd351fcbb5710e91c4158030af351245fc0c37ff16e4cd72ea063,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle2,gru,44,32,83971,2130304,W*3*(D*H + H*H) + H*H + H*C,ce024e19e1b712e5eae6c1d5bd196d545fc11f799a0a38cb4edfbda60334e70a,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle2,linear,44,32,4227,4224,W*D*C,eb38f52ec5dfd6d030d08b29c7303dc8cfdf30c1c6caa30bd83b9bd4598a12af,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle2,prevalence,44,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarCircle2,temporal_cnn,44,32,34179,557440,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,7d75f9d48f96ea2a8495e55aa5faba2e4c4f3eda6286d76738f8fd41610ae89b,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal1,flat_mlp,76,32,333187,328064,W*D*H + (L-1)*H*H + H*C,439df8473f83c9e631114601dbf66e6248b18f8dc0d1404ae303b62629bb5675,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal1,gru,76,32,96259,2523520,W*3*(D*H + H*H) + H*H + H*C,4d0cc16c97bb7003bd91ca5bc3434091274f5802320b49e3cb2af10235345e1e,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal1,linear,76,32,7299,7296,W*D*C,23861358eb5670683924b1b826038bccc1c2a3a56151523e38a483fcfd167da8,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal1,prevalence,76,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal1,temporal_cnn,76,32,46467,950656,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,e3364c0e1f77a9faa1cc9e3e38ca9ee98a9787f1ba677a804239f90ec502a3dc,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal2,flat_mlp,76,32,333187,328064,W*D*H + (L-1)*H*H + H*C,439df8473f83c9e631114601dbf66e6248b18f8dc0d1404ae303b62629bb5675,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal2,gru,76,32,96259,2523520,W*3*(D*H + H*H) + H*H + H*C,4d0cc16c97bb7003bd91ca5bc3434091274f5802320b49e3cb2af10235345e1e,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal2,linear,76,32,7299,7296,W*D*C,23861358eb5670683924b1b826038bccc1c2a3a56151523e38a483fcfd167da8,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal2,prevalence,76,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarGoal2,temporal_cnn,76,32,46467,950656,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,e3364c0e1f77a9faa1cc9e3e38ca9ee98a9787f1ba677a804239f90ec502a3dc,provisional_existing_models_only_supersede_at_G5_G10
+CarPush1,flat_mlp,92,32,399747,393600,W*D*H + (L-1)*H*H + H*C,4ee190253aa6ae73b0e468418573026a4d351116523a26f7a39266bc766df9ea,provisional_existing_models_only_supersede_at_G5_G10
+CarPush1,gru,92,32,102403,2720128,W*3*(D*H + H*H) + H*H + H*C,c5eef7d63e2ab3febab4cfc8e90053c6c81f9d9ae04cbb6e18352a860e368176,provisional_existing_models_only_supersede_at_G5_G10
+CarPush1,linear,92,32,8835,8832,W*D*C,9647137d7180132380a2b8fad8146d274334985a2f602b03ba3ea510d35523d1,provisional_existing_models_only_supersede_at_G5_G10
+CarPush1,prevalence,92,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarPush1,temporal_cnn,92,32,52611,1147264,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,aa0568de6d0518801bcb36db9eae504ccb939a182c9bdc6eaf2a78843afccc66,provisional_existing_models_only_supersede_at_G5_G10
+CarPush2,flat_mlp,92,32,399747,393600,W*D*H + (L-1)*H*H + H*C,4ee190253aa6ae73b0e468418573026a4d351116523a26f7a39266bc766df9ea,provisional_existing_models_only_supersede_at_G5_G10
+CarPush2,gru,92,32,102403,2720128,W*3*(D*H + H*H) + H*H + H*C,c5eef7d63e2ab3febab4cfc8e90053c6c81f9d9ae04cbb6e18352a860e368176,provisional_existing_models_only_supersede_at_G5_G10
+CarPush2,linear,92,32,8835,8832,W*D*C,9647137d7180132380a2b8fad8146d274334985a2f602b03ba3ea510d35523d1,provisional_existing_models_only_supersede_at_G5_G10
+CarPush2,prevalence,92,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarPush2,temporal_cnn,92,32,52611,1147264,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,aa0568de6d0518801bcb36db9eae504ccb939a182c9bdc6eaf2a78843afccc66,provisional_existing_models_only_supersede_at_G5_G10
+CarRun,flat_mlp,11,32,62787,61824,W*D*H + (L-1)*H*H + H*C,21c291a65b662bbeeddbe69fb1d39829818cb61afd8d87b521202aef721c9b35,provisional_existing_models_only_supersede_at_G5_G10
+CarRun,gru,11,32,71299,1724800,W*3*(D*H + H*H) + H*H + H*C,d9e0a6fb0963abc1d9f170b658fe42dfef904aec20d8fd49b9d59fce4bafdcd7,provisional_existing_models_only_supersede_at_G5_G10
+CarRun,linear,11,32,1059,1056,W*D*C,4a475f7c2591021813a33b2212be27931bf218ff0ab16c2053bfbab79de84f62,provisional_existing_models_only_supersede_at_G5_G10
+CarRun,prevalence,11,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+CarRun,temporal_cnn,11,32,21507,151936,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,1753d703ded637a746293e14fa6482ebbdb6934e26e1edbb2c2cb0d55f559c89,provisional_existing_models_only_supersede_at_G5_G10
+DroneCircle,flat_mlp,24,32,116867,115072,W*D*H + (L-1)*H*H + H*C,e360db726add8742a06c5ecf6f2787351765523f0ac64535849cac10bf4278e3,provisional_existing_models_only_supersede_at_G5_G10
+DroneCircle,gru,24,32,76291,1884544,W*3*(D*H + H*H) + H*H + H*C,03095376b3ab9ab646a2e82a36fc717ff965040d378b47595ef5f5b9bd1cbd2c,provisional_existing_models_only_supersede_at_G5_G10
+DroneCircle,linear,24,32,2307,2304,W*D*C,0944185183f2828befc0c1d8be26db8025675a602081f891c92812d082ff8d93,provisional_existing_models_only_supersede_at_G5_G10
+DroneCircle,prevalence,24,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+DroneCircle,temporal_cnn,24,32,26499,311680,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,af3ec5dc85a1b165c72c6285d7a1ad64f0e6aa37fb863726cbfb7b1e1d147f0d,provisional_existing_models_only_supersede_at_G5_G10
+DroneRun,flat_mlp,23,32,112707,110976,W*D*H + (L-1)*H*H + H*C,5e0b32b2f106d93b7510891439cc70fcc92f1f291b4bff4720c5b06ab36ad354,provisional_existing_models_only_supersede_at_G5_G10
+DroneRun,gru,23,32,75907,1872256,W*3*(D*H + H*H) + H*H + H*C,1e14ebb672e57e2189811350fdbdde1086a0977b58928ee556edfe72c4b72b9f,provisional_existing_models_only_supersede_at_G5_G10
+DroneRun,linear,23,32,2211,2208,W*D*C,98e9249e8f3165a15e5e07b0c4a679f8a70068703784f39c58eff5ff9fb23ad6,provisional_existing_models_only_supersede_at_G5_G10
+DroneRun,prevalence,23,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+DroneRun,temporal_cnn,23,32,26115,299392,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,9daaab632bc49f02a5d25ceb01b5bc36aa57d75f15f99c3aca878056feed0d86,provisional_existing_models_only_supersede_at_G5_G10
+HalfCheetahVelocity,flat_mlp,25,32,121027,119168,W*D*H + (L-1)*H*H + H*C,1c817ea50dc65e589902fbd041082908040855176a55429f53ae3e445cb5c83e,provisional_existing_models_only_supersede_at_G5_G10
+HalfCheetahVelocity,gru,25,32,76675,1896832,W*3*(D*H + H*H) + H*H + H*C,50fd9ed7bec891840521be4f5863cc8ad4a77b1c3b8e4e5295c5aa99d1a9bb72,provisional_existing_models_only_supersede_at_G5_G10
+HalfCheetahVelocity,linear,25,32,2403,2400,W*D*C,ec300e59aea9a7c25b31744483e0ea63e526db4470c5849cbde451bac2e1835f,provisional_existing_models_only_supersede_at_G5_G10
+HalfCheetahVelocity,prevalence,25,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+HalfCheetahVelocity,temporal_cnn,25,32,26883,323968,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,36641ae7e7b98eb4991e282c11f97d07bddd76ed6de9dc0f20cb0d5aa456382c,provisional_existing_models_only_supersede_at_G5_G10
+HopperVelocity,flat_mlp,16,32,83587,82304,W*D*H + (L-1)*H*H + H*C,c144782cf2a2bbf4016566ac3fc51fac6bb082830bf50d7708915e1187a49474,provisional_existing_models_only_supersede_at_G5_G10
+HopperVelocity,gru,16,32,73219,1786240,W*3*(D*H + H*H) + H*H + H*C,2266a75832f2fe930018d0c0c6c6e872d1875369fb081853031d7866cfe2f38a,provisional_existing_models_only_supersede_at_G5_G10
+HopperVelocity,linear,16,32,1539,1536,W*D*C,5c341fe4d7d4f56daed397e5e95fd59603ab725751639c44dbcd0cfa5833be96,provisional_existing_models_only_supersede_at_G5_G10
+HopperVelocity,prevalence,16,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+HopperVelocity,temporal_cnn,16,32,23427,213376,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,5c94f896b2c24a9013e8a80d3ac4bd6765cddb1c06c325fcc430438bbc845693,provisional_existing_models_only_supersede_at_G5_G10
+PointButton1,flat_mlp,80,32,349827,344448,W*D*H + (L-1)*H*H + H*C,4225bbb000bb26c3f4a52db29aca5564c477ddf3af4b634ee522e1073f16d8e9,provisional_existing_models_only_supersede_at_G5_G10
+PointButton1,gru,80,32,97795,2572672,W*3*(D*H + H*H) + H*H + H*C,b938f4c9a279daa8bbd48016905da1a62dd4e852fabea51ce9c1e17dff60aaec,provisional_existing_models_only_supersede_at_G5_G10
+PointButton1,linear,80,32,7683,7680,W*D*C,643d3179a3a090304ef636912290d532a1ffcd75bd1df3601681a4d731d5ff0a,provisional_existing_models_only_supersede_at_G5_G10
+PointButton1,prevalence,80,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointButton1,temporal_cnn,80,32,48003,999808,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,8520b440303ce4f246f5145ef64f77124b5af6857bd49a9dd090124bf1d62a4b,provisional_existing_models_only_supersede_at_G5_G10
+PointButton2,flat_mlp,80,32,349827,344448,W*D*H + (L-1)*H*H + H*C,4225bbb000bb26c3f4a52db29aca5564c477ddf3af4b634ee522e1073f16d8e9,provisional_existing_models_only_supersede_at_G5_G10
+PointButton2,gru,80,32,97795,2572672,W*3*(D*H + H*H) + H*H + H*C,b938f4c9a279daa8bbd48016905da1a62dd4e852fabea51ce9c1e17dff60aaec,provisional_existing_models_only_supersede_at_G5_G10
+PointButton2,linear,80,32,7683,7680,W*D*C,643d3179a3a090304ef636912290d532a1ffcd75bd1df3601681a4d731d5ff0a,provisional_existing_models_only_supersede_at_G5_G10
+PointButton2,prevalence,80,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointButton2,temporal_cnn,80,32,48003,999808,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,8520b440303ce4f246f5145ef64f77124b5af6857bd49a9dd090124bf1d62a4b,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle1,flat_mlp,32,32,150147,147840,W*D*H + (L-1)*H*H + H*C,724a446bbd34dcef4090f0e25afbd9f06c28a8d9c97b80e89ce4b968d6aceb47,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle1,gru,32,32,79363,1982848,W*3*(D*H + H*H) + H*H + H*C,3dc66abb95ba71d9bd6ea29f6815d29ba56a1a39b61ab0cf9c4aea75bc56c087,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle1,linear,32,32,3075,3072,W*D*C,7755b50ed7c685219116a5bef3237e75590a0af51639fb15d41e65a23bb9272e,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle1,prevalence,32,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle1,temporal_cnn,32,32,29571,409984,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,623cc10d08c209343e77ed2f852254fe8ba72e99897b2a8a059500ab30f18513,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle2,flat_mlp,32,32,150147,147840,W*D*H + (L-1)*H*H + H*C,724a446bbd34dcef4090f0e25afbd9f06c28a8d9c97b80e89ce4b968d6aceb47,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle2,gru,32,32,79363,1982848,W*3*(D*H + H*H) + H*H + H*C,3dc66abb95ba71d9bd6ea29f6815d29ba56a1a39b61ab0cf9c4aea75bc56c087,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle2,linear,32,32,3075,3072,W*D*C,7755b50ed7c685219116a5bef3237e75590a0af51639fb15d41e65a23bb9272e,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle2,prevalence,32,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointCircle2,temporal_cnn,32,32,29571,409984,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,623cc10d08c209343e77ed2f852254fe8ba72e99897b2a8a059500ab30f18513,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal1,flat_mlp,64,32,283267,278912,W*D*H + (L-1)*H*H + H*C,eee3f19353b20d886479c1eec39eca4ea01f3bd6abfa4814c55a4b35e30c8bba,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal1,gru,64,32,91651,2376064,W*3*(D*H + H*H) + H*H + H*C,f8933e4d1436d6b33f2a967032a4bb54fe65c7d65bbc9481f3445beddbc4eb1c,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal1,linear,64,32,6147,6144,W*D*C,8d7df9d180da7597a1200c6225b7c7322f2e795fc27274542b32cb65a142109f,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal1,prevalence,64,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal1,temporal_cnn,64,32,41859,803200,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,5f5cec49ef985630a15f02d8b97bd9eab5b13a452b7527287baa5d06c7447c04,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal2,flat_mlp,64,32,283267,278912,W*D*H + (L-1)*H*H + H*C,eee3f19353b20d886479c1eec39eca4ea01f3bd6abfa4814c55a4b35e30c8bba,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal2,gru,64,32,91651,2376064,W*3*(D*H + H*H) + H*H + H*C,f8933e4d1436d6b33f2a967032a4bb54fe65c7d65bbc9481f3445beddbc4eb1c,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal2,linear,64,32,6147,6144,W*D*C,8d7df9d180da7597a1200c6225b7c7322f2e795fc27274542b32cb65a142109f,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal2,prevalence,64,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointGoal2,temporal_cnn,64,32,41859,803200,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,5f5cec49ef985630a15f02d8b97bd9eab5b13a452b7527287baa5d06c7447c04,provisional_existing_models_only_supersede_at_G5_G10
+PointPush1,flat_mlp,80,32,349827,344448,W*D*H + (L-1)*H*H + H*C,4225bbb000bb26c3f4a52db29aca5564c477ddf3af4b634ee522e1073f16d8e9,provisional_existing_models_only_supersede_at_G5_G10
+PointPush1,gru,80,32,97795,2572672,W*3*(D*H + H*H) + H*H + H*C,b938f4c9a279daa8bbd48016905da1a62dd4e852fabea51ce9c1e17dff60aaec,provisional_existing_models_only_supersede_at_G5_G10
+PointPush1,linear,80,32,7683,7680,W*D*C,643d3179a3a090304ef636912290d532a1ffcd75bd1df3601681a4d731d5ff0a,provisional_existing_models_only_supersede_at_G5_G10
+PointPush1,prevalence,80,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointPush1,temporal_cnn,80,32,48003,999808,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,8520b440303ce4f246f5145ef64f77124b5af6857bd49a9dd090124bf1d62a4b,provisional_existing_models_only_supersede_at_G5_G10
+PointPush2,flat_mlp,80,32,349827,344448,W*D*H + (L-1)*H*H + H*C,4225bbb000bb26c3f4a52db29aca5564c477ddf3af4b634ee522e1073f16d8e9,provisional_existing_models_only_supersede_at_G5_G10
+PointPush2,gru,80,32,97795,2572672,W*3*(D*H + H*H) + H*H + H*C,b938f4c9a279daa8bbd48016905da1a62dd4e852fabea51ce9c1e17dff60aaec,provisional_existing_models_only_supersede_at_G5_G10
+PointPush2,linear,80,32,7683,7680,W*D*C,643d3179a3a090304ef636912290d532a1ffcd75bd1df3601681a4d731d5ff0a,provisional_existing_models_only_supersede_at_G5_G10
+PointPush2,prevalence,80,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+PointPush2,temporal_cnn,80,32,48003,999808,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,8520b440303ce4f246f5145ef64f77124b5af6857bd49a9dd090124bf1d62a4b,provisional_existing_models_only_supersede_at_G5_G10
+SwimmerVelocity,flat_mlp,12,32,66947,65920,W*D*H + (L-1)*H*H + H*C,e0b4720661f96910103473df46c8b8d5f6fef3e7b97b7a4275b6cbc2de25ecfd,provisional_existing_models_only_supersede_at_G5_G10
+SwimmerVelocity,gru,12,32,71683,1737088,W*3*(D*H + H*H) + H*H + H*C,0176825fec5875f116911b0aa9a699550519d36266e9d8957baadf3f78a94dbc,provisional_existing_models_only_supersede_at_G5_G10
+SwimmerVelocity,linear,12,32,1155,1152,W*D*C,0486e6a201b4cee5d48ce142019f33f752cc2b2746924032ac3fa2b14ff8ac76,provisional_existing_models_only_supersede_at_G5_G10
+SwimmerVelocity,prevalence,12,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+SwimmerVelocity,temporal_cnn,12,32,21891,164224,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,e087e860897dcefa140a7613e1ddda2ee191ff2df7f673ecd682aecd0e72bc17,provisional_existing_models_only_supersede_at_G5_G10
+Walker2dVelocity,flat_mlp,25,32,121027,119168,W*D*H + (L-1)*H*H + H*C,1c817ea50dc65e589902fbd041082908040855176a55429f53ae3e445cb5c83e,provisional_existing_models_only_supersede_at_G5_G10
+Walker2dVelocity,gru,25,32,76675,1896832,W*3*(D*H + H*H) + H*H + H*C,50fd9ed7bec891840521be4f5863cc8ad4a77b1c3b8e4e5295c5aa99d1a9bb72,provisional_existing_models_only_supersede_at_G5_G10
+Walker2dVelocity,linear,25,32,2403,2400,W*D*C,ec300e59aea9a7c25b31744483e0ea63e526db4470c5849cbde451bac2e1835f,provisional_existing_models_only_supersede_at_G5_G10
+Walker2dVelocity,prevalence,25,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+Walker2dVelocity,temporal_cnn,25,32,26883,323968,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,36641ae7e7b98eb4991e282c11f97d07bddd76ed6de9dc0f20cb0d5aa456382c,provisional_existing_models_only_supersede_at_G5_G10
+easydense,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+easydense,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+easydense,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+easydense,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+easydense,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+easymean,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+easymean,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+easymean,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+easymean,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+easymean,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+easysparse,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+easysparse,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+easysparse,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+easysparse,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+easysparse,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+harddense,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+harddense,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+harddense,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+harddense,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+harddense,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+hardmean,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+hardmean,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+hardmean,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+hardmean,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+hardmean,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+hardsparse,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+hardsparse,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+hardsparse,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+hardsparse,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+hardsparse,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+mediumdense,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+mediumdense,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+mediumdense,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+mediumdense,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+mediumdense,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+mediummean,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+mediummean,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+mediummean,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+mediummean,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+mediummean,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10
+mediumsparse,flat_mlp,263,32,1111107,1094016,W*D*H + (L-1)*H*H + H*C,e90196e7ccc570c0490f60d511cc6b52ef2cab63f8a5a7742a51784e904d5e5f,provisional_existing_models_only_supersede_at_G5_G10
+mediumsparse,gru,263,32,168067,4821376,W*3*(D*H + H*H) + H*H + H*C,e772986254cba73b78aded1117deece321ac96da580cf492402c3513d46149a1,provisional_existing_models_only_supersede_at_G5_G10
+mediumsparse,linear,263,32,25251,25248,W*D*C,447a3bdc5826ecad9449b03a35bd64148120a8868dc05974604aa1d512e4bae4,provisional_existing_models_only_supersede_at_G5_G10
+mediumsparse,prevalence,263,32,0,0,O(C) constant probability broadcast; 0 trainable parameters,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945,provisional_existing_models_only_supersede_at_G5_G10
+mediumsparse,temporal_cnn,263,32,118275,3248512,W*K*D*H + (L-1)*W*K*H*H + H*H + H*C,3306768a2bb9ec5eb46e1f4551bc16414008c635d4bca05b1ce0562327f2477d,provisional_existing_models_only_supersede_at_G5_G10

@@ -1,0 +1,4 @@
+model_name,task_count,parameter_count_min,parameter_count_median,parameter_count_max,theoretical_macs_min,theoretical_macs_median,theoretical_macs_max,formula
+gru,38,71299,93955.0,168067,1724800,2449792.0,4821376,W*3*(D*H + H^2) + head(H^2 + H*C)
+flat_mlp,38,62787,308227.0,1111107,61824,303488.0,1094016,W*D*H + (depth-1)*H^2 + H*C
+transformer,38,71555,92045.0,169331,2310828,2958038.0,5392884,W*D*M + L*(12*W*M^2 + 2*W^2*M) + M^2 + M*C

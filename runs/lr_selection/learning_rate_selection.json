@@ -1,0 +1,48 @@
+{
+  "models": {
+    "flat_mlp": {
+      "best_mean_validation_step_catastrophic_auprc": 0.6100978246673159,
+      "four_task_means": {
+        "1e-03": 0.6021823402412503,
+        "3e-03": 0.6100978246673159,
+        "3e-04": 0.6079789762095159
+      },
+      "selected_learning_rate": 0.003,
+      "selected_mean_validation_step_catastrophic_auprc": 0.6100978246673159,
+      "tie_candidate_learning_rates": [
+        0.003
+      ]
+    },
+    "gru": {
+      "best_mean_validation_step_catastrophic_auprc": 0.6402933311926985,
+      "four_task_means": {
+        "1e-03": 0.6393012010696477,
+        "3e-03": 0.6321709875707726,
+        "3e-04": 0.6402933311926985
+      },
+      "selected_learning_rate": 0.0003,
+      "selected_mean_validation_step_catastrophic_auprc": 0.6402933311926985,
+      "tie_candidate_learning_rates": [
+        0.0003
+      ]
+    },
+    "transformer": {
+      "best_mean_validation_step_catastrophic_auprc": 0.6391182526238997,
+      "four_task_means": {
+        "1e-03": 0.6382430113150586,
+        "3e-03": 0.6391182526238997,
+        "3e-04": 0.6369644807588936
+      },
+      "selected_learning_rate": 0.003,
+      "selected_mean_validation_step_catastrophic_auprc": 0.6391182526238997,
+      "tie_candidate_learning_rates": [
+        0.003
+      ]
+    }
+  },
+  "schema_version": "ottp_stage5_validation_only_lr_selection_v1",
+  "selection_sha256": "087bfad00784f7e83128ea6b00265692547fd0325a62c2f79ec07c0c04f611dc",
+  "selection_uses_test_metrics": false,
+  "tie_comparison": "strictly_less_than",
+  "tie_tolerance": 0.0001
+}

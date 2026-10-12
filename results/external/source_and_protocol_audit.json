@@ -1,0 +1,388 @@
+{
+  "source_sha256": "20773a5530cbda57644adac7226812cf492593a617735b4685a969131d37c470",
+  "source_bytes": 10904096,
+  "source_commit": "2097e8bbc96ef49183f22cb2a1b05948b5859ec0",
+  "raw_field_map": {
+    "state": "observations",
+    "action": "actions",
+    "next_state": "next_observations",
+    "reward": "rewards",
+    "h": "costs",
+    "done": "terminals"
+  },
+  "cost_semantics": "signed hazard constraint h; positive denotes a violation; author-provided binary cost equals (h > 0)",
+  "positive_h_count": 8165,
+  "complete_episode_count": 1872,
+  "incomplete_tail_dropped": 22,
+  "unmarked_nonterminal_discontinuities": 0,
+  "timeout_field_supplied": false,
+  "license_note": "Author officially distributes data for training; no separate redistribution license found; raw file is local-only.",
+  "precursor_relative_path": "runs/external/precursor/FISOR_PointRobot.pt",
+  "precursor_sha256": "8f1bbe7cdaa3255b2817ce06d7220aca7558baf43d407f5d5002728943a5d2b3",
+  "precursor_samples": 99978,
+  "protocol": {
+    "gamma": 0.99,
+    "group_size_episodes": 1,
+    "step_q_low": 0.75,
+    "step_q_high": 0.9,
+    "outcome_q_low": 0.75,
+    "outcome_q_high": 0.9,
+    "min_class_ratio": 0.01
+  },
+  "split_audit": [
+    {
+      "split_seed": 0,
+      "pass": true,
+      "group_leakage_detected": false,
+      "split_sizes": {
+        "train": 59606,
+        "val": 19607,
+        "test": 20765
+      },
+      "step_thresholds": {
+        "0": {
+          "q75": -13.35033130645752,
+          "q90": -6.2388129234313965
+        }
+      },
+      "outcome_thresholds": {
+        "0": {
+          "q75": -31.077539443969727,
+          "q90": -19.702739715576172
+        }
+      },
+      "labels": {
+        "step": {
+          "train": {
+            "counts": {
+              "safe": 44704,
+              "near_miss": 8941,
+              "catastrophic": 5961
+            },
+            "ratios": {
+              "safe": 0.7499916115827265,
+              "near_miss": 0.15000167768345468,
+              "catastrophic": 0.10000671073381874
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "val": {
+            "counts": {
+              "safe": 14708,
+              "near_miss": 3058,
+              "catastrophic": 1841
+            },
+            "ratios": {
+              "safe": 0.7501402560310093,
+              "near_miss": 0.15596470648237873,
+              "catastrophic": 0.09389503748661192
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "test": {
+            "counts": {
+              "safe": 15855,
+              "near_miss": 3157,
+              "catastrophic": 1753
+            },
+            "ratios": {
+              "safe": 0.7635444257163496,
+              "near_miss": 0.15203467372983384,
+              "catastrophic": 0.08442090055381651
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          }
+        },
+        "outcome": {
+          "train": {
+            "counts": {
+              "safe": 44653,
+              "near_miss": 8992,
+              "catastrophic": 5961
+            },
+            "ratios": {
+              "safe": 0.7491359930208368,
+              "near_miss": 0.15085729624534444,
+              "catastrophic": 0.10000671073381874
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "val": {
+            "counts": {
+              "safe": 14781,
+              "near_miss": 2725,
+              "catastrophic": 2101
+            },
+            "ratios": {
+              "safe": 0.7538634161268934,
+              "near_miss": 0.13898097618197583,
+              "catastrophic": 0.10715560769113072
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "test": {
+            "counts": {
+              "safe": 15897,
+              "near_miss": 3164,
+              "catastrophic": 1704
+            },
+            "ratios": {
+              "safe": 0.7655670599566579,
+              "near_miss": 0.1523717794365519,
+              "catastrophic": 0.08206116060679028
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 1,
+      "pass": true,
+      "group_leakage_detected": false,
+      "split_sizes": {
+        "train": 58873,
+        "val": 21214,
+        "test": 19891
+      },
+      "step_thresholds": {
+        "0": {
+          "q75": -13.504899024963379,
+          "q90": -6.569140911102295
+        }
+      },
+      "outcome_thresholds": {
+        "0": {
+          "q75": -31.56496238708496,
+          "q90": -19.532012939453125
+        }
+      },
+      "labels": {
+        "step": {
+          "train": {
+            "counts": {
+              "safe": 44154,
+              "near_miss": 8831,
+              "catastrophic": 5888
+            },
+            "ratios": {
+              "safe": 0.7499872607137398,
+              "near_miss": 0.1500008492857507,
+              "catastrophic": 0.10001189000050957
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "val": {
+            "counts": {
+              "safe": 16183,
+              "near_miss": 2932,
+              "catastrophic": 2099
+            },
+            "ratios": {
+              "safe": 0.762845290845668,
+              "near_miss": 0.13821061563118694,
+              "catastrophic": 0.0989440935231451
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "test": {
+            "counts": {
+              "safe": 14551,
+              "near_miss": 2977,
+              "catastrophic": 2363
+            },
+            "ratios": {
+              "safe": 0.7315368759740586,
+              "near_miss": 0.14966567794479915,
+              "catastrophic": 0.11879744608114222
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          }
+        },
+        "outcome": {
+          "train": {
+            "counts": {
+              "safe": 44139,
+              "near_miss": 8839,
+              "catastrophic": 5895
+            },
+            "ratios": {
+              "safe": 0.7497324749885347,
+              "near_miss": 0.15013673500586008,
+              "catastrophic": 0.10013079000560529
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "val": {
+            "counts": {
+              "safe": 16175,
+              "near_miss": 3471,
+              "catastrophic": 1568
+            },
+            "ratios": {
+              "safe": 0.7624681813896483,
+              "near_miss": 0.16361836523050816,
+              "catastrophic": 0.0739134533798435
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "test": {
+            "counts": {
+              "safe": 14533,
+              "near_miss": 3108,
+              "catastrophic": 2250
+            },
+            "ratios": {
+              "safe": 0.7306319440953195,
+              "near_miss": 0.15625157106228948,
+              "catastrophic": 0.11311648484239104
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 2,
+      "pass": true,
+      "group_leakage_detected": false,
+      "split_sizes": {
+        "train": 61683,
+        "val": 20483,
+        "test": 17812
+      },
+      "step_thresholds": {
+        "0": {
+          "q75": -13.51492691040039,
+          "q90": -6.37893133163452
+        }
+      },
+      "outcome_thresholds": {
+        "0": {
+          "q75": -31.177562713623047,
+          "q90": -20.79792594909668
+        }
+      },
+      "labels": {
+        "step": {
+          "train": {
+            "counts": {
+              "safe": 46262,
+              "near_miss": 9252,
+              "catastrophic": 6169
+            },
+            "ratios": {
+              "safe": 0.7499959470194381,
+              "near_miss": 0.14999270463498857,
+              "catastrophic": 0.10001134834557333
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "val": {
+            "counts": {
+              "safe": 15822,
+              "near_miss": 2771,
+              "catastrophic": 1890
+            },
+            "ratios": {
+              "safe": 0.7724454425621247,
+              "near_miss": 0.13528291754137578,
+              "catastrophic": 0.09227163989649953
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "test": {
+            "counts": {
+              "safe": 12764,
+              "near_miss": 3254,
+              "catastrophic": 1794
+            },
+            "ratios": {
+              "safe": 0.7165955535593982,
+              "near_miss": 0.18268582977767797,
+              "catastrophic": 0.10071861666292387
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          }
+        },
+        "outcome": {
+          "train": {
+            "counts": {
+              "safe": 46188,
+              "near_miss": 9316,
+              "catastrophic": 6179
+            },
+            "ratios": {
+              "safe": 0.7487962647731141,
+              "near_miss": 0.15103026765883631,
+              "catastrophic": 0.10017346756804954
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "val": {
+            "counts": {
+              "safe": 16196,
+              "near_miss": 2172,
+              "catastrophic": 2115
+            },
+            "ratios": {
+              "safe": 0.7907044866474637,
+              "near_miss": 0.10603915442073915,
+              "catastrophic": 0.1032563589317971
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          },
+          "test": {
+            "counts": {
+              "safe": 12820,
+              "near_miss": 2965,
+              "catastrophic": 2027
+            },
+            "ratios": {
+              "safe": 0.7197395014596901,
+              "near_miss": 0.16646081293509993,
+              "catastrophic": 0.11379968560520998
+            },
+            "all_classes_present": true,
+            "extreme_class_imbalance": false,
+            "min_class_ratio": 0.01
+          }
+        }
+      }
+    }
+  ]
+}

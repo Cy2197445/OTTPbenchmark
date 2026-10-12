@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, cite the accompanying OTTP paper and this archived software version."
+title: "OTTP: A Benchmark Protocol for Trajectory-Prefix Risk Prediction in Offline Safe Reinforcement Learning"
+type: software
+authors:
+  - family-names: Chai
+    given-names: Yi
+    affiliation: Shanghai University of Electric Power
+  - family-names: Liu
+    given-names: Dandan
+    affiliation: Shanghai University of Electric Power
+  - family-names: Luo
+    given-names: Zixiao
+    affiliation: Shanghai University of Electric Power
+abstract: >-
+  OTTP provides a reproducible protocol and benchmark for hindsight-defined
+  trajectory-prefix cumulative-cost prediction on offline safe-RL logs. The
+  primary endpoint is Step catastrophic AUPRC. The archive contains code,
+  result tables, run records, and split and preprocessing artifacts.
+keywords:
+  - offline safe reinforcement learning
+  - benchmark protocol
+  - trajectory-prefix prediction
+  - hindsight cumulative cost
+license: MIT
+version: "1.1.0"

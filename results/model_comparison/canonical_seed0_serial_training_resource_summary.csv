@@ -1,0 +1,4 @@
+model_name,task_count,fit_wall_seconds_median,fit_wall_seconds_q1,fit_wall_seconds_q3,peak_cuda_allocated_bytes_median,peak_cuda_reserved_bytes_median,scope
+gru,38,75.3174474999978,69.31754870000441,80.60051882499829,155261952.0,236978176.0,38_task_canonical_full_seed0_serial_no_gpu_competition
+flat_mlp,38,82.74147135000385,73.16376095000669,87.78391669999473,31256576.0,238026752.0,38_task_canonical_full_seed0_serial_no_gpu_competition
+transformer,38,90.71450334999099,85.06439115001194,99.99993712500145,102305280.0,239075328.0,38_task_canonical_full_seed0_serial_no_gpu_competition

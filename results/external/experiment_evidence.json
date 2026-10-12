@@ -1,0 +1,35 @@
+{
+  "task_count": 1,
+  "model_count": 3,
+  "split_seed_count": 3,
+  "condition_count": 2,
+  "run_count": 18,
+  "split_hashes": {
+    "0": {
+      "train": "7bbe6778e28227e0928d70228219f7465736e69e9a22eb9c05fec36db6dec1dd",
+      "val": "5add27a1188c5ba552434b0fe0b6915ea1453af4f277aaf90b79817a59c0b29e",
+      "test": "ac39919fbab01cfd41154368dbf7f9bb921ed308556e8d655cbb4af88dca92ca",
+      "thresholds": "8a21dcb25a7c7d2ca89c1a8865a347f754d9e33441ef617148f7f36789a47ff6",
+      "normalization": "67bf6fcae34b624a262d85786c05194d214ec23e7dd7cb8d38528b66d08f20a1",
+      "episode_assignment": "d2970d83472c6d266bc7675cc82e43c2c7b5117d99b5adee487dd373c8432ba8"
+    },
+    "1": {
+      "train": "c78a8abd42d77415ae467ab8d12594c25956964ba71ebac37e38b25abafa077d",
+      "val": "17bcfe7fc3b52bca24f6a933b9102deecc890d134c5b25fda004c2d2a7c55360",
+      "test": "42ec8fd5d44c5bd36693d27405ee58d4f94c9a28cce989e3b1ac4420c7ec2eaf",
+      "thresholds": "f2a3f3f9484c029c04874909ab26bc34e2ece62ebc2c35f82443eac1a8cebf9e",
+      "normalization": "32ca4c1b72245c2f5c1200c34be3a97cce66fa8293095db9202f4d62e1ad4687",
+      "episode_assignment": "8afc055ada9fba17255cdef610aef3c0c847e5ed94043fbfe8ff55908817ade3"
+    },
+    "2": {
+      "train": "2196ec3ba496cac505de0204a48985aad9438f19e47cf43b929a1da017f0e2e9",
+      "val": "96a72aedb9d4c067e92b16f93feb2e41b337ff962bcf63268c85f285dbfd5bb9",
+      "test": "6c8b244efe36425e2af30cce2c88825cd773f9b895366a1b0242e91e40d09b83",
+      "thresholds": "414fad872dbe839be7c6b19fe5acf3cade6509d05bfc8806eed4ef56f9ec80b8",
+      "normalization": "62b0096751874d1197eaa6120de0d053aa9bfddc4ffea2ea85c554d9c7282283",
+      "episode_assignment": "499b885fe44215f5336a78592d9c65a98e03b26f1b5bd3203e4a0644bdb532a9"
+    }
+  },
+  "external_source": "FISOR Point Robot",
+  "external_validation_scope": "one independently released Point Robot task; no general external-validity claim"
+}

@@ -1,0 +1,124 @@
+{
+  "artifacts": {
+    "metrics.json": {
+      "bytes": 26432,
+      "sha256": "0bd1eb4550512e99e2375401a05e097657d24a3da488483e71c720fcc5281dc3"
+    },
+    "precursor_model.pt": {
+      "bytes": 613837,
+      "sha256": "642877fb9a85336cf97ad4de8d9baba031d6bde28c5eeb8e3b79c6d03ac3d0c4"
+    }
+  },
+  "attempt_id": "attempt-001",
+  "dataset": {
+    "path": "data/precursors/PointCircle2.pt",
+    "sha256": "7e0bb8b95cd3707ecd083d3883d98709b875ee2b6eb1106da8d44267b44177ff",
+    "task": "PointCircle2"
+  },
+  "experiment_id": "r26_stage4-sensitivity_unified38_pointcircle2_flat-mlp_current-inclusive_ss2_ts2_25ddd9e3d64f",
+  "freeze_id": "OTTP-R26-G1-v1",
+  "indices": {
+    "capped": {
+      "test": {
+        "count": 89500,
+        "sha256": "602339c403936a164c10ec5dc162e8560b5befbc02529e2e8942ec083608a478"
+      },
+      "train": {
+        "count": 100000,
+        "sha256": "056fc727ab7c52ab8ba2b9e254f169892121017087cab0edc163e362fc0fc0cb"
+      },
+      "val": {
+        "count": 50000,
+        "sha256": "3f48c0c6123c62a34d433f51d293ad2901cc18e48989e5d64d65d4735622ad54"
+      }
+    },
+    "files": {
+      "capped_train_validation_indices.npz": {
+        "bytes": 229882,
+        "sha256": "07f92c5cc0935aceac8490afe7d3be2bf0b2c62285bc1a4de988773afa8feba5"
+      },
+      "episode_group_assignment.csv.gz": {
+        "bytes": 4246,
+        "sha256": "74d335e978480aa82e6616789cdf6c7b4b5c85d02170ffe6bb21fb5169559604"
+      },
+      "normalization_stats.npz": {
+        "bytes": 627,
+        "sha256": "5dbfedf53d8b4a99134ba1ced48dbf483ae1f670ada77435c31e3703af244ca0"
+      },
+      "thresholds.json": {
+        "bytes": 188,
+        "sha256": "f67eb0a08ef7244373bcfb5711cc70b24e4ee2e45d1e29e0b8c227461fb3f280"
+      },
+      "uncapped_split_indices.npz": {
+        "bytes": 679228,
+        "sha256": "41d7512578038ef980790d71aa5d7442c8ad4e2b2c3e57f47e5daf50e1bc5986"
+      }
+    },
+    "root": "runs/target_ablation/task_runs/sensitivity/PointCircle2/sens_g099_q80_q95/attempt-001/split_seed_2/train_seed_2/reproducibility",
+    "uncapped": {
+      "test": {
+        "count": 89500,
+        "sha256": "602339c403936a164c10ec5dc162e8560b5befbc02529e2e8942ec083608a478"
+      },
+      "train": {
+        "count": 268500,
+        "sha256": "e21bf9d7fd17d5b272e508c33b0fa297ace3cba29253903f866e0f18781b0998"
+      },
+      "val": {
+        "count": 89500,
+        "sha256": "6c1028f76332b95e245659d6655a637666d4a40a73b514d73bbe9c0d2b2aa29e"
+      }
+    }
+  },
+  "protocol": {
+    "extra": {
+      "ablation_group": null,
+      "ablation_mode": null,
+      "max_test_samples": null,
+      "max_train_samples": 100000,
+      "max_val_samples": 50000,
+      "window_size": 32
+    },
+    "feature_profile": "full",
+    "freeze_id": "OTTP-R26-G1-v1",
+    "gamma": 0.99,
+    "legacy_compatible": false,
+    "legacy_seed": 2,
+    "loader_seed": 2,
+    "model_name": "flat-mlp",
+    "outcome_quantile_pair": [
+      0.8,
+      0.95
+    ],
+    "protocol_hash": "25ddd9e3d64f0a5d5ec85ab883751dd3a1705f60579c2907160166b5de3b4cd9",
+    "quantile_pair": [
+      0.8,
+      0.95
+    ],
+    "sampling_seed": 2,
+    "split_family": "episode_group",
+    "split_seed": 2,
+    "target_variant": "current_inclusive",
+    "train_seed": 2
+  },
+  "resources": {
+    "free_bytes_before": 17792983040,
+    "minimum_free_space_gib": 10.0
+  },
+  "schema_version": "ottp_revision_run_manifest_v1",
+  "source_snapshot_hash": "795ab205086aae8ef24b060e1ecf74a6877bcc03d21e59fda2693b63b4ede8ae",
+  "training": {
+    "batch_size": 256,
+    "device": "cuda",
+    "dropout": 0.0,
+    "epochs": 12,
+    "hidden_dim": 128,
+    "learning_rate": 0.001,
+    "loader_rng_mode": "explicit_loader_seed",
+    "num_layers": 1,
+    "trainable_parameter_count": 150147,
+    "weight_decay": 1e-05,
+    "window_size": 32
+  },
+  "work_package": "stage4-sensitivity"
+}

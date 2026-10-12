@@ -1,0 +1,53 @@
+{
+  "capped": {
+    "test": {
+      "count": 89500,
+      "sha256": "602339c403936a164c10ec5dc162e8560b5befbc02529e2e8942ec083608a478"
+    },
+    "train": {
+      "count": 100000,
+      "sha256": "056fc727ab7c52ab8ba2b9e254f169892121017087cab0edc163e362fc0fc0cb"
+    },
+    "val": {
+      "count": 50000,
+      "sha256": "3f48c0c6123c62a34d433f51d293ad2901cc18e48989e5d64d65d4735622ad54"
+    }
+  },
+  "files": {
+    "capped_train_validation_indices.npz": {
+      "bytes": 229882,
+      "sha256": "07f92c5cc0935aceac8490afe7d3be2bf0b2c62285bc1a4de988773afa8feba5"
+    },
+    "episode_group_assignment.csv.gz": {
+      "bytes": 4246,
+      "sha256": "3e31f5f0797841b60177845bc239496df9fa98bc94b8780e49254d92469016c7"
+    },
+    "normalization_stats.npz": {
+      "bytes": 627,
+      "sha256": "5dbfedf53d8b4a99134ba1ced48dbf483ae1f670ada77435c31e3703af244ca0"
+    },
+    "thresholds.json": {
+      "bytes": 187,
+      "sha256": "a547a848d577f5ea0d3d1bd1b3cae252d949386c764777f97f3f28a479eeb87c"
+    },
+    "uncapped_split_indices.npz": {
+      "bytes": 679228,
+      "sha256": "41d7512578038ef980790d71aa5d7442c8ad4e2b2c3e57f47e5daf50e1bc5986"
+    }
+  },
+  "root": "reproducibility",
+  "uncapped": {
+    "test": {
+      "count": 89500,
+      "sha256": "602339c403936a164c10ec5dc162e8560b5befbc02529e2e8942ec083608a478"
+    },
+    "train": {
+      "count": 268500,
+      "sha256": "e21bf9d7fd17d5b272e508c33b0fa297ace3cba29253903f866e0f18781b0998"
+    },
+    "val": {
+      "count": 89500,
+      "sha256": "6c1028f76332b95e245659d6655a637666d4a40a73b514d73bbe9c0d2b2aa29e"
+    }
+  }
+}

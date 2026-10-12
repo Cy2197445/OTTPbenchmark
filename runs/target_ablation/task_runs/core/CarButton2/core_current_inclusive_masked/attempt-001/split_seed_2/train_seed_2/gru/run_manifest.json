@@ -1,0 +1,124 @@
+{
+  "artifacts": {
+    "metrics.json": {
+      "bytes": 69277,
+      "sha256": "e9a6ba72c2b0f7a8f72a50d41716dfc7ed10193ffc3841b7433b547b5e349416"
+    },
+    "precursor_model.pt": {
+      "bytes": 432081,
+      "sha256": "0d5ac081c1e4f5ad9c17e4f995f37b587678b77628dec5a2738bb2a00d236dfa"
+    }
+  },
+  "attempt_id": "attempt-001",
+  "dataset": {
+    "path": "data/precursors/CarButton2.pt",
+    "sha256": "34e215cdc4cf98eafae6f35b380f404a8017c3fa6756ccf0ce7e146170135a97",
+    "task": "CarButton2"
+  },
+  "experiment_id": "r26_stage4-core_unified38_carbutton2_gru_current-inclusive_ss2_ts2_62fbc6d70ffc",
+  "freeze_id": "OTTP-R26-G1-v1",
+  "indices": {
+    "capped": {
+      "test": {
+        "count": 751000,
+        "sha256": "a8933aa39dcdebf3a0a5a90ac783bd7a8356e018735f57c2a9584dfcf6c08d9d"
+      },
+      "train": {
+        "count": 100000,
+        "sha256": "7f96fbf8cf6b0678580d0e3b80f16935bdfa9ef8477c8a47649f6ea9f70e5af9"
+      },
+      "val": {
+        "count": 50000,
+        "sha256": "59c9fd982290b0253b39cce199c48b7c5a9b7c3697a536f86b02dbebd40cb818"
+      }
+    },
+    "files": {
+      "capped_train_validation_indices.npz": {
+        "bytes": 247804,
+        "sha256": "3cbf112beabc807d89691cf5b73a9a0fe7947593375b659ed8eecc1b1be0a5a5"
+      },
+      "episode_group_assignment.csv.gz": {
+        "bytes": 19321,
+        "sha256": "fb58936fac50093fc129dc46e0d4c946254c094148bb883496e754a757459cec"
+      },
+      "normalization_stats.npz": {
+        "bytes": 1144,
+        "sha256": "9f4cd9772be67547b13bd94cc0a97cd38a439ad1edb5978d62a9c7f3bef9e879"
+      },
+      "thresholds.json": {
+        "bytes": 189,
+        "sha256": "06dcec4825fcbfcda801631a252087f825b2fae8a521f6f9e478df4733edeaa4"
+      },
+      "uncapped_split_indices.npz": {
+        "bytes": 5690279,
+        "sha256": "5a957cd0578383945c7e829bbd6f7f1eb612bfb3b8f85aec5e08514e48df0a00"
+      }
+    },
+    "root": "runs/target_ablation/task_runs/core/CarButton2/core_current_inclusive_masked/attempt-001/split_seed_2/train_seed_2/reproducibility",
+    "uncapped": {
+      "test": {
+        "count": 751000,
+        "sha256": "a8933aa39dcdebf3a0a5a90ac783bd7a8356e018735f57c2a9584dfcf6c08d9d"
+      },
+      "train": {
+        "count": 2253000,
+        "sha256": "b8d063b5ef3399ea9c5169c99cfad47e95609be93d73b5970c0e1892197cc1b2"
+      },
+      "val": {
+        "count": 751000,
+        "sha256": "e561e2ff7e8c08ae34fadd6f7c0a8611976457bf7ed3e437a51f7bfbf2f5f1c1"
+      }
+    }
+  },
+  "protocol": {
+    "extra": {
+      "ablation_group": null,
+      "ablation_mode": null,
+      "max_test_samples": null,
+      "max_train_samples": 100000,
+      "max_val_samples": 50000,
+      "window_size": 32
+    },
+    "feature_profile": "history_without_current_cost",
+    "freeze_id": "OTTP-R26-G1-v1",
+    "gamma": 0.99,
+    "legacy_compatible": false,
+    "legacy_seed": 2,
+    "loader_seed": 2,
+    "model_name": "gru",
+    "outcome_quantile_pair": [
+      0.75,
+      0.9
+    ],
+    "protocol_hash": "62fbc6d70ffcf2342e26912e58d3c4ae4d67aa04ae2c63ec2c2d78d784da263a",
+    "quantile_pair": [
+      0.75,
+      0.9
+    ],
+    "sampling_seed": 2,
+    "split_family": "episode_group",
+    "split_seed": 2,
+    "target_variant": "current_inclusive",
+    "train_seed": 2
+  },
+  "resources": {
+    "free_bytes_before": 19815829504,
+    "minimum_free_space_gib": 10.0
+  },
+  "schema_version": "ottp_revision_run_manifest_v1",
+  "source_snapshot_hash": "795ab205086aae8ef24b060e1ecf74a6877bcc03d21e59fda2693b63b4ede8ae",
+  "training": {
+    "batch_size": 256,
+    "device": "cuda",
+    "dropout": 0.0,
+    "epochs": 12,
+    "hidden_dim": 128,
+    "learning_rate": 0.001,
+    "loader_rng_mode": "explicit_loader_seed",
+    "num_layers": 1,
+    "trainable_parameter_count": 102403,
+    "weight_decay": 1e-05,
+    "window_size": 32
+  },
+  "work_package": "stage4-core"
+}

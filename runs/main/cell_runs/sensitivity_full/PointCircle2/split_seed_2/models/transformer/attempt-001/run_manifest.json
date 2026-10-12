@@ -1,0 +1,143 @@
+{
+  "artifacts": {
+    "metrics.json": {
+      "bytes": 26961,
+      "sha256": "9f4958fc06b0e59fad3d4dc0fd13f3643ba95c659e09443df9318af57a599493"
+    },
+    "precursor_model.pt": {
+      "bytes": 358016,
+      "sha256": "3cda1f1d20ce266dc50a1d765c564c657649f8ed3fbdc62ab04043e65bddfa4f"
+    }
+  },
+  "attempt_id": "attempt-001",
+  "dataset": {
+    "path": "data/precursors/PointCircle2.pt",
+    "sha256": "7e0bb8b95cd3707ecd083d3883d98709b875ee2b6eb1106da8d44267b44177ff",
+    "task": "PointCircle2"
+  },
+  "experiment_id": "cc1__stage5_fair_matrix__sensitivity_full__PointCircle2__ss2__transformer",
+  "freeze_id": "OTTP-R26-G1-v1",
+  "indices": {
+    "capped": {
+      "test": {
+        "count": 89500,
+        "sha256": "602339c403936a164c10ec5dc162e8560b5befbc02529e2e8942ec083608a478"
+      },
+      "train": {
+        "count": 100000,
+        "sha256": "056fc727ab7c52ab8ba2b9e254f169892121017087cab0edc163e362fc0fc0cb"
+      },
+      "val": {
+        "count": 50000,
+        "sha256": "3f48c0c6123c62a34d433f51d293ad2901cc18e48989e5d64d65d4735622ad54"
+      }
+    },
+    "files": {
+      "capped_train_validation_indices.npz": {
+        "bytes": 229882,
+        "sha256": "07f92c5cc0935aceac8490afe7d3be2bf0b2c62285bc1a4de988773afa8feba5"
+      },
+      "episode_group_assignment.csv.gz": {
+        "bytes": 4246,
+        "sha256": "2fe8180717f2d2ca6e5134fef90001b200f5f9dbd136b243bae80ec28c47d73d"
+      },
+      "normalization_stats.npz": {
+        "bytes": 627,
+        "sha256": "5dbfedf53d8b4a99134ba1ced48dbf483ae1f670ada77435c31e3703af244ca0"
+      },
+      "thresholds.json": {
+        "bytes": 188,
+        "sha256": "f67eb0a08ef7244373bcfb5711cc70b24e4ee2e45d1e29e0b8c227461fb3f280"
+      },
+      "uncapped_split_indices.npz": {
+        "bytes": 679228,
+        "sha256": "41d7512578038ef980790d71aa5d7442c8ad4e2b2c3e57f47e5daf50e1bc5986"
+      }
+    },
+    "root": "reproducibility",
+    "uncapped": {
+      "test": {
+        "count": 89500,
+        "sha256": "602339c403936a164c10ec5dc162e8560b5befbc02529e2e8942ec083608a478"
+      },
+      "train": {
+        "count": 268500,
+        "sha256": "e21bf9d7fd17d5b272e508c33b0fa297ace3cba29253903f866e0f18781b0998"
+      },
+      "val": {
+        "count": 89500,
+        "sha256": "6c1028f76332b95e245659d6655a637666d4a40a73b514d73bbe9c0d2b2aa29e"
+      }
+    }
+  },
+  "protocol": {
+    "extra": {
+      "ablation_group": null,
+      "ablation_mode": null,
+      "gradient_accumulation_steps": 1,
+      "max_test_samples": null,
+      "max_train_samples": 100000,
+      "max_val_samples": 50000,
+      "transformer_d_model": 56,
+      "transformer_ffn_multiplier": 4,
+      "transformer_max_length": 32,
+      "transformer_num_heads": 4,
+      "transformer_num_layers": 2,
+      "window_size": 32
+    },
+    "feature_profile": "full",
+    "freeze_id": "OTTP-R26-G1-v1",
+    "gamma": 0.99,
+    "legacy_compatible": false,
+    "legacy_seed": 2,
+    "loader_seed": 2,
+    "model_name": "transformer",
+    "outcome_quantile_pair": [
+      0.8,
+      0.95
+    ],
+    "protocol_hash": "0aaf37e0293ea9cd16365cc901411f2a4576c600f3c1bf552a1b37ae110d39fe",
+    "quantile_pair": [
+      0.8,
+      0.95
+    ],
+    "sampling_seed": 2,
+    "split_family": "episode_group",
+    "split_seed": 2,
+    "target_variant": "current_inclusive",
+    "train_seed": 2
+  },
+  "resources": {
+    "free_bytes_before": 13318762496,
+    "minimum_free_space_gib": 10.0
+  },
+  "schema_version": "ottp_revision_run_manifest_v1",
+  "source_snapshot_hash": "66bc937938c54c93d6bddb17c6398c316cc51baf199d565c41d23c850a179e53",
+  "training": {
+    "batch_size": 256,
+    "device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 3060 Ti",
+    "dropout": 0.0,
+    "effective_batch_size": 256,
+    "epochs": 12,
+    "fit_wall_seconds": 125.24698559999524,
+    "gradient_accumulation_steps": 1,
+    "hidden_dim": 128,
+    "learning_rate": 0.003,
+    "loader_rng_mode": "explicit_loader_seed",
+    "num_layers": 1,
+    "peak_cuda_allocated_bytes": 99604480,
+    "peak_cuda_reserved_bytes": 234881024,
+    "trainable_parameter_count": 83835,
+    "transformer_parameter_match": {
+      "d_model": 56,
+      "gru_parameter_count": 79363,
+      "input_dim": 32,
+      "relative_deviation_percent": 5.634867633531998,
+      "transformer_parameter_count": 83835
+    },
+    "weight_decay": 1e-05,
+    "window_size": 32
+  },
+  "work_package": "stage5_fair_matrix"
+}

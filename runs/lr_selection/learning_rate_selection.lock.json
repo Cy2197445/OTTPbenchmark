@@ -1,0 +1,9 @@
+{
+  "contains_test_metric_columns": false,
+  "schema_version": "ottp_stage5_lr_selection_lock_v1",
+  "selection_file_sha256": "adff0593e80e2ab5b4bbc0b272ae992c52b403f949492e2b18611a991f380325",
+  "selection_path": "learning_rate_selection.json",
+  "selection_payload_sha256": "087bfad00784f7e83128ea6b00265692547fd0325a62c2f79ec07c0c04f611dc",
+  "status": "LOCKED",
+  "validation_score_file_sha256": "89b2271b432e1e904b3c836fc7ac77f199764c15c2015d7fe86c6928d3fe8b49"
+}
